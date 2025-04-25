@@ -9,7 +9,7 @@ import visdom
 import onnx
 
 viz = visdom.Visdom()
-
+print("second commit")
 data_train = MNIST('./data/mnist',
                    download=True,
                    transform=transforms.Compose([
